@@ -1,0 +1,16 @@
+{
+  "todos": [
+    {
+      "content": "First thing",
+      "id": 1
+    },
+    {
+      "content": "Second thing",
+      "id": 2
+    },
+    {
+      "content": "Third thing",
+      "id": 3
+    }
+  ]
+}
