@@ -15,8 +15,18 @@ const deleteTask = async (id) => {
     await axios.delete(`${URL}/${id}`);
 };
 
+const toggleTask = async (id, newStatus) => {
+    await axios.patch(`${URL}/${id}`, newStatus);
+}
+
+const editTask = async (id, newTask) => {
+    await axios.patch(`${URL}/${id}`, newTask);
+}
+
 export default {
     getTasks,
     addTask,
-    deleteTask
+    deleteTask,
+    toggleTask,
+    editTask
 };

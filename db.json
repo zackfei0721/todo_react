@@ -1,15 +1,18 @@
 {
   "todos": [
     {
-      "content": "First thing",
+      "content": "one",
+      "completed": true,
       "id": 1
     },
     {
-      "content": "Second thing",
+      "content": "two",
+      "completed": false,
       "id": 2
     },
     {
-      "content": "Third thing",
+      "content": "three",
+      "completed": false,
       "id": 3
     }
   ]
